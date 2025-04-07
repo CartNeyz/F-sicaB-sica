@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css"> 
+  <script src="javazinho.js"></script>
+  <title>Física - MRU</title>
+</head>
+<body>  
+
+  <script src="script.js"></script>
+
+  <div class="container">
+    <h1>Movimento Retilíneo Uniforme</h1>
+
+    <label for="posicaoinicial">Posição Inicial (S₀):</label>
+    <input type="number" id="posicaoinicial" placeholder="Ex: 0" />
+
+    <label for="velocidade">Velocidade (km/h) :</label>
+    <input type="number" id="velocidade" placeholder="Ex: 10" />
+
+    <label for="tempo">Tempo (t)/s :</label>
+    <input type="number" id="tempo" placeholder="Ex: 5"/>
+
+    <button onclick="RMU()">Calcular</button>
+
+    <div id="resultado" style="margin-top: 15px; font-weight: bold;"></div>
+
+  </div>
+
+  <div class="cdc">
+    <h1>Ondulatória</h1>
+
+    <label for="co">Comprimento da Onda</label>
+    <input type="number" id="cda" placeholder="Ex: 5">
+
+    <label for="fo">Frequência da Onda</label>
+    <input type="number" id="fdo" placeholder="Ex: 5">
+
+    <button onclick="EVO()">Calcular</button>
+
+    <div id="rcdc" style="margin-top: 15px; font-weight: bold;"></div>
+
+  </div>
+
+  <div class="cdc">
+    <h1>Velocidade de Queda Livre</h1>
+    <h5>Omite-se a Resistência do Ar.</h5>
+
+    <label for="QH">Altura (M) </label>
+    <input type="number" id="QH" placeholder="Ex: 5">
+
+    <button onclick="VQL()">Calcular</button>
+
+    <div id="rql" style="margin-top: 15px; font-weight: bold;"></div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
